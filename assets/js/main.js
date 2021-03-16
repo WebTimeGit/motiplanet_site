@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!page_preloader.classList.contains('done')) {
             page_preloader.classList.add('done')
         }
-    }, 500);
+    }, 700);
 
 
 
