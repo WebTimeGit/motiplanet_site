@@ -85,6 +85,29 @@ h1, h2, h3, h4, h5, h6 {
     background: #ccc;
 }
 
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    transition: 0.4s ease-in-out;
+    visibility: visible;
+    opacity: 1;
+}
+
+.preloader.done {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    z-index: -9;
+}
+
 .btn {
     font-size: 16px;
     padding: 12px 20px;

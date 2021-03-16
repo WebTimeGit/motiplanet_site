@@ -1,5 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    // PRELOADER ACTIVATED
+    setTimeout(()=> {
+        let page_preloader = document.querySelector('#page_preloader');
+        if (!page_preloader.classList.contains('done')) {
+            page_preloader.classList.add('done')
+        }
+    }, 500);
+
+
+
+
     //OPEN HEADER SEARCH MODAL
 
     let headerSearchBtn = document.querySelector('.header_search-btn');
