@@ -57,13 +57,110 @@ document.addEventListener("DOMContentLoaded", () => {
     // MAIN SWIPER BANNER
     new Swiper('.main-banner', {
         loop: true,
-
-        // Navigation arrows
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
     });
+
+
+    //INIT '.slider-pods' SWIPER in tabs
+    let pods_tab = document.querySelector('#pods-tab');
+    if (pods_tab) {
+        pods_tab.addEventListener('click', () => {
+            setTimeout(() => {
+                new Swiper('.slider-pods', {
+                    // Optional parameters
+                    loop: true,
+
+                    // If we need pagination
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                        dynamicBullets: true
+                    },
+                    initialSlide: 1,
+                    slidesPerView: 3,
+                    breakpoints: {
+                        1024: {
+                            slidesPerView: 4
+                        },
+                        767: {
+                            slidesPerView: 3
+                        },
+                        567: {
+                            slidesPerView: 2
+                        },
+                        280: {
+                            slidesPerView: 1
+                        }
+                    }
+                });
+            }, 200)
+        })
+    }
+
+
+    // slider-device SWIPER
+    let slider_device = document.querySelector('.slider-device');
+    if (slider_device) {
+        new Swiper('.slider-device', {
+            // Optional parameters
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                dynamicBullets: true
+            },
+            initialSlide: 1,
+            slidesPerView: 3,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 4
+                },
+                767: {
+                    slidesPerView: 3
+                },
+                567: {
+                    slidesPerView: 2
+                },
+                280: {
+                    slidesPerView: 1
+                }
+            }
+        });
+    }
+
+    // slider-news SWIPER
+    let slider_news = document.querySelector('.slider-news');
+    if (slider_news) {
+        new Swiper('.slider-news', {
+            // Optional parameters
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            initialSlide: 1,
+            slidesPerView: 3,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3
+                },
+                767: {
+                    slidesPerView: 2
+                },
+                280: {
+                    slidesPerView: 1
+                }
+            }
+        });
+    }
+
+
+    new WOW().init();
 
 
 });
