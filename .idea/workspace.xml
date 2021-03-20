@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="639428f6-c643-4340-9f2c-7981202554b2" name="Default Changelist" comment="finished home page desktop">
+      <change afterPath="$PROJECT_DIR$/assets/css/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.github/ISSUE_TEMPLATE/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/fullscreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/share.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/slideshow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/thumbs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/guestures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/hash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/share.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/slideshow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/thumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/wheel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/device/device1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/device/device2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/device/device3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/device/device4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/device/device5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/product_tab_img1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/product_tab_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/secure_pay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.fancybox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ppSGSR0d4ZfWWyfclmTb1Fwpct" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.product.html">
+    <configuration name="category.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/motiplanet.com/category.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/motiplanet.com/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="product.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/motiplanet.com/product.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.product.html" />
+        <item itemvalue="JavaScript Debug.category.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="639428f6-c643-4340-9f2c-7981202554b2" name="Default Changelist" comment="" />
+      <created>1615878444203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615878444203</updated>
+      <workItem from="1615878445706" duration="24585000" />
+      <workItem from="1615908199926" duration="1038000" />
+      <workItem from="1615909260681" duration="8477000" />
+      <workItem from="1615924704665" duration="60000" />
+      <workItem from="1615924791829" duration="392000" />
+      <workItem from="1615963558403" duration="1335000" />
+      <workItem from="1615981396327" duration="10077000" />
+      <workItem from="1615991596073" duration="8955000" />
+      <workItem from="1616064026129" duration="25355000" />
+      <workItem from="1616145841985" duration="7509000" />
+      <workItem from="1616153416373" duration="29000" />
+      <workItem from="1616153471881" duration="6000" />
+      <workItem from="1616153479254" duration="15894000" />
+      <workItem from="1616234449635" duration="13637000" />
+    </task>
+    <task id="LOCAL-00001" summary="add preloader">
+      <created>1615916691637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615916691637</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add preloader">
+      <created>1615916710740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615916710740</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add slider swiper">
+      <created>1616011586234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616011586234</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add favicon and refactoring logo/preloader">
+      <created>1616012617686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616012617686</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finished home page desktop">
+      <created>1616153051756</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616153051756</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add preloader" />
+    <MESSAGE value="add slider swiper" />
+    <MESSAGE value="add favicon and refactoring logo/preloader" />
+    <MESSAGE value="finished home page desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished home page desktop" />
+  </component>
+</project>
