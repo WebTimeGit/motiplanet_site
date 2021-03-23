@@ -1,0 +1,252 @@
+@media (max-width: 1024px){
+	.header_menuBar .logo {
+		margin: 0 10px 0 0;
+	}
+	.header.sticky .header_menuBar {
+		padding: 15px;
+	}
+}
+
+@media (max-width: 992px) {
+	.header {
+		padding: 0;
+		background: #000;
+	}
+	.mobile_btn {
+		display: block
+	}
+
+	.lng_btn {
+		pointer-events: none;
+	}
+
+	.header_menuBar {
+		padding: 10px 15px;
+		flex-wrap: wrap;
+	}
+
+	.header_menuBar .nav {
+		position: absolute;
+		top: 60px;
+		left: -120%;
+		width: 280px;
+		min-height: 100vh;
+		overflow-y: auto;
+		display: flex;
+		flex-direction: column-reverse;
+		flex-wrap: initial;
+		background: #000;
+		transition: .4s ease-in-out;
+		justify-content: flex-end;
+		padding: 60px 0 20px 0;
+		z-index: -1;
+	}
+
+	.site_nav {
+		max-height: 80vh;
+		overflow-y: auto;
+	}
+
+	.header_menuBar .nav::before {
+		content: '';
+		position: absolute;
+		top: -40px;
+		left: -15%;
+		width: 100%;
+		height: 100%;
+		background: #000;
+		z-index: -1;
+	}
+
+	.header_menuBar .nav.open {
+		transition: .4s ease-in-out;
+		left: 0;
+	}
+
+	.header_userBar {
+		padding: 0 10px;
+		margin-left: auto;
+	}
+
+	.site_nav > li > a {
+		padding: 12px 15px;
+	}
+
+	.dropdown > a::before {
+		right: 15px;
+	}
+
+	.nav > ul > li {
+		width: 100% !important;
+	}
+
+	.site_nav > .dropdown_list {
+		padding: 0 0 0 10px;
+	}
+
+	.site_nav > .dropdown_list:hover .site_nav_dropdown {
+		visibility: hidden;
+		overflow: hidden;
+		transform: scaleY(0);
+		opacity: 0;
+	}
+
+	.site_nav > li > span > a:hover,
+	.site_nav > li:hover > span > a,
+	.site_nav > li a:hover,
+	.site_nav > li:hover > a {
+		color: #fff;
+		transition: initial;
+		text-shadow: initial;
+	}
+
+	.site_nav > .dropdown_list.active > span > a,
+	.site_nav > .dropdown_list.active > a {
+		color: #9f7a49;
+		transition: 0.4s ease-in-out;
+		text-shadow: initial;
+	}
+
+	.site_nav > .dropdown_list:hover .dropdown_arrow::before {
+		border-top: 6px solid #fff;
+		transform: translateY(-50%);
+		transition: 0.4s ease-in-out;
+	}
+
+	.site_nav > .dropdown_list.active .dropdown_arrow::before {
+		transform: translateY(-50%) rotate(180deg);
+		border-top: 6px solid #9f7a49;
+		transition: 0.4s ease-in-out;
+	}
+
+	.site_nav .dropdown_list > span {
+		justify-content: space-between;
+	}
+
+	.dropdown_arrow {
+		width: 40px;
+		height: 100%;
+	}
+
+	.site_nav > .dropdown_list .site_nav_dropdown {
+		transition: initial;
+	}
+
+	.site_nav > .dropdown_list.active .site_nav_dropdown {
+		visibility: visible;
+		overflow: visible;
+		transform: scaleY(1);
+		opacity: 1;
+		position: relative;
+		top: 0;
+
+		border-bottom: 1px dashed #fff
+	}
+
+	.site_nav > .dropdown_list.active .site_nav_dropdown .dropdown_list {
+		padding-left: 10px;
+		margin-bottom: 15px;
+	}
+	
+
+	.site_nav .site_nav_dropdown {
+		padding: 15px;
+		margin: 0;
+		width: 100%;
+		left: 0;
+		background: #000;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.parent_mega_menu .inner {
+		width: 100%;
+	}
+
+	.site_nav_dropdown .inner a,
+	.parent_mega_menu .inner a {
+		color: #fff;
+		font-size: 16px;
+		padding-left: 15px;
+	}
+
+	.site_nav_dropdown .inner > a,
+	.parent_mega_menu .inner > a {
+		margin-bottom: 0;
+	}
+
+	.category_content__header {
+		width: 100%;
+	}
+
+	.container_category {
+		flex-direction: column-reverse;
+	}
+
+	.category_sidebar,
+	.category_content {
+		width: 100%;
+	}
+
+	.select_wr {
+		margin: 10px 0;
+	}
+
+	.badge_sold-out {
+		width: 80px;
+		height: 80px;
+		font-size: 11px;
+	}
+
+	.search_Form {
+		margin: initial;
+	}
+
+
+
+}
+
+@media(max-width: 767px) {
+	.section_parallax::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,.8);
+	}
+
+	.slider_content.first {
+		max-width: 100%;
+		margin: 60px 0 0 0;
+	}
+
+	.slider_content.first .slider_content-tittle {
+		font-size: 18px;
+	}
+
+	.slider_content.slider_content-left,
+	.slider_content.slider_content-right {
+		margin: 40px 0 0 0;
+	}
+
+
+}
+
+@media(max-width: 400px) {
+	.header_menuBar .logo {
+		width: 100%;
+		text-align: center;
+		margin: 0 0 10px 0;
+	}
+	.header_userBar {
+		margin: initial;
+	}
+
+	.header_account_dropList,
+	.slideDown_cart {
+		top: 90px;
+	}
+
+}

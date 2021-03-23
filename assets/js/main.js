@@ -9,6 +9,58 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1000);
 
 
+    // BTN MENU START
+    let mobile_btn = document.querySelector('.mobile_btn');
+    const mobile_menu = document.querySelector('.nav');
+    if (mobile_btn) {
+        mobile_btn.addEventListener('click', function () {
+            this.classList.toggle('active');
+            mobile_menu.classList.toggle('open');
+        })
+
+        document.addEventListener('click', function (e) {
+            const target = e.target;
+            const its_menu = target === mobile_menu || mobile_menu.contains(target);
+            const its_btnMenu = target === mobile_btn || mobile_btn.contains(target);
+            const menu_is_active = mobile_menu.classList.contains('open');
+
+            if (!its_menu && !its_btnMenu && menu_is_active) {
+                mobile_btn.classList.toggle('active');
+                mobile_menu.classList.toggle('open');
+            }
+        });
+    }
+    // BTN MENU THE END
+
+    // BTN dropdown_mob START
+    if (window.innerWidth < 993) {
+        let dropdown_mob = document.querySelectorAll('.dropdown_arrow');
+        for (let i = 0; i < dropdown_mob.length; i++) {
+            let mobile_menu_children = dropdown_mob[i].parentNode.nextElementSibling;
+            if (dropdown_mob.length > 0) {
+                dropdown_mob[i].addEventListener('click', function (e) {
+                    e.preventDefault();
+                    this.closest('li').classList.toggle('active');
+                    mobile_menu_children.classList.toggle('open');
+                })
+
+                document.addEventListener('click', function (e) {
+                    const target = e.target;
+                    const its_menu = target === mobile_menu_children || mobile_menu_children.contains(target);
+                    const its_btnMenu = target === dropdown_mob[i] || dropdown_mob[i].contains(target);
+                    const menu_is_active = mobile_menu_children.classList.contains('open');
+
+                    if (!its_menu && !its_btnMenu && menu_is_active) {
+                        mobile_menu_children.closest('li').classList.toggle('active');
+                        mobile_menu_children.classList.toggle('open');
+                    }
+                });
+            }
+        }
+    }
+    // BTN dropdown_mob THE END
+
+
     // STICKY SELECTOR .header_menuBar
     let header = document.querySelector('#header');
     let main = document.querySelector('.main');
@@ -49,7 +101,6 @@ document.addEventListener("DOMContentLoaded", () => {
         searchModalClose.addEventListener('click', () => {
             headerSearchModal.classList.remove('open');
             document.body.style.overflow = 'initial';
-
         })
     }
 
@@ -260,23 +311,23 @@ document.addEventListener("DOMContentLoaded", () => {
     // CUSTOM SELECT
     const CustomSelect = function (e) {
         let mainInitId = e.elem ? document.getElementById(e.elem) : e.elem,
-            optGroup = mainInitId.querySelectorAll('optgroup'),
-            options = mainInitId.options,
-            selectedIndex = options[mainInitId.selectedIndex],
-            dataIndexCount = 0,
-            dataImgCount = 0,
-            createSelectLi,
-            createSelectImg,
-            prefixContainer = 'custom',
-            titleClass = 'select_title',
-            selectedClass = 'selected',
-            selectContainerClass = 'custom_select',
-            selectUlClass = 'select_list',
-            optGroupClass = 'select_optgroup',
-            imgClass = 'select_img',
-            imgLazyClass = 'lazy',
-            titleClassActive = 'active',
-            ulOpenClass = 'open';
+        optGroup = mainInitId.querySelectorAll('optgroup'),
+        options = mainInitId.options,
+        selectedIndex = options[mainInitId.selectedIndex],
+        dataIndexCount = 0,
+        dataImgCount = 0,
+        createSelectLi,
+        createSelectImg,
+        prefixContainer = 'custom',
+        titleClass = 'select_title',
+        selectedClass = 'selected',
+        selectContainerClass = 'custom_select',
+        selectUlClass = 'select_list',
+        optGroupClass = 'select_optgroup',
+        imgClass = 'select_img',
+        imgLazyClass = 'lazy',
+        titleClassActive = 'active',
+        ulOpenClass = 'open';
 
         const createSelectContainer = document.createElement('div');
         createSelectContainer.className = selectContainerClass;
@@ -337,17 +388,17 @@ document.addEventListener("DOMContentLoaded", () => {
             const target = e.target;
 
             if ('DIV' === target.tagName){}
-            else {
-                createSelectBtn.innerHTML = target.closest('li').innerHTML;
-                mainInitId.options.selectedIndex = +target.closest('li').getAttribute('data-index');
+                else {
+                    createSelectBtn.innerHTML = target.closest('li').innerHTML;
+                    mainInitId.options.selectedIndex = +target.closest('li').getAttribute('data-index');
 
-                for (let a = 0; a < options.length; a++) {
-                    createSelectUl.querySelectorAll('li')[a].classList.remove(selectedClass);
-                    target.closest('li').classList.add(selectedClass);
+                    for (let a = 0; a < options.length; a++) {
+                        createSelectUl.querySelectorAll('li')[a].classList.remove(selectedClass);
+                        target.closest('li').classList.add(selectedClass);
+                    }
                 }
-            }
 
-        });
+            });
 
         createSelectBtn.addEventListener('click', function () {
             createSelectUl.classList.toggle(ulOpenClass);
@@ -396,6 +447,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     new WOW().init();
-
 
 });
