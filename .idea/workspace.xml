@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="639428f6-c643-4340-9f2c-7981202554b2" name="Default Changelist" comment="finished 3 page desktop&#10;Home Category Product">
-      <change afterPath="$PROJECT_DIR$/motiplanet.com.rar" afterDir="false" />
+    <list default="true" id="639428f6-c643-4340-9f2c-7981202554b2" name="Default Changelist" comment="finished 3 page media&#10;Home Category Product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ProximaNova.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bootstrap-5.0.0.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fancybox-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fontawesome-free-5.15.2-web.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.github/ISSUE_TEMPLATE/question.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/dist/jquery.fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/fullscreen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/share.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/slideshow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/css/thumbs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/fullscreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/guestures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/hash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/media.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/share.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/slideshow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/thumbs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fancybox-master/fancybox-master/src/js/wheel.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motiplanet.com.rar" beforeDir="false" afterPath="$PROJECT_DIR$/motiplanet.com.rar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +60,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.category.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="category.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/motiplanet.com/category.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -51,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.category.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.category.html" />
         <item itemvalue="JavaScript Debug.product.html" />
       </list>
     </recent_temporary>
@@ -79,7 +100,7 @@
       <workItem from="1616153471881" duration="6000" />
       <workItem from="1616153479254" duration="15894000" />
       <workItem from="1616234449635" duration="14904000" />
-      <workItem from="1616530966465" duration="1254000" />
+      <workItem from="1616530966465" duration="4965000" />
     </task>
     <task id="LOCAL-00001" summary="add preloader">
       <created>1615916691637</created>
@@ -130,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616248396221</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished 3 page media&#10;Home Category Product">
+      <created>1616532260566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616532260566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +183,7 @@
     <MESSAGE value="add favicon and refactoring logo/preloader" />
     <MESSAGE value="finished home page desktop" />
     <MESSAGE value="finished 3 page desktop&#10;Home Category Product" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished 3 page desktop&#10;Home Category Product" />
+    <MESSAGE value="finished 3 page media&#10;Home Category Product" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished 3 page media&#10;Home Category Product" />
   </component>
 </project>

@@ -258,6 +258,10 @@ h1, h2, h3, h4, h5, h6 {
     grid-area: header;
 }
 
+.header_page {
+    background: #000;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -898,6 +902,8 @@ a.header_cart-btn::before {
 .parallax_contentWR {
     max-width: 616px;
     float: right;
+    position: relative;
+    z-index: 2;
 }
 
 .parallax_content_title {
@@ -1308,7 +1314,7 @@ a.header_cart-btn::before {
 }
 
 .footer_nav h3 {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-size: 20px;
     color: #9f7a49;
 }
@@ -1327,6 +1333,10 @@ a.header_cart-btn::before {
 .footer_nav li a:hover {
     color: #9f7a49;
     transition: .4s ease-in-out;
+}
+
+.footer_nav-links {
+    margin-bottom: 20px;
 }
 
 .footer_social {
